@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'AEXML', '4.3.3'
   s.dependency 'FontBlaster', '4.1.0'
   s.dependency 'RealmSwift', '10.5.1'
-  s.dependency 'Realm', '10.5.1'
+  s.dependency 'Realm', '3.17.3'
 
 end
