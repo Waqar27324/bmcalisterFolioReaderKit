@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
     'Source/Resources/Fonts/**/*.{otf,ttf}'
   ]
   s.public_header_files = 'Source/*.h'
-  s.pod_target_xcconfig = {
-    'PRODUCT_BUNDLE_IDENTIFIER': 'io.mca.nfolioreaderkit'
-  } 
+#   s.pod_target_xcconfig = {
+#     'PRODUCT_BUNDLE_IDENTIFIER': 'io.mca.nfolioreaderkit'
+#   } 
   s.libraries  = "z"
   s.dependency 'SSZipArchive', '2.1.1'
   s.dependency 'MenuItemKit', '3.1.3'
